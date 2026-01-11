@@ -1,15 +1,15 @@
 import { Profile } from "@/components/types/profile";
 
 export const profile: Profile = {
-  name: "Kofoworola Q. Omowale",
+  name: "My name is Kofoworola Omowale!",
 
   headline: "Impact-Driven Analyst",
 
   introduction: [
-    "Kofoworola Omowale is an impact-driven analyst with experience across private equity, venture capital, and capital markets.",
-    "She is skilled in fund structuring, investment analysis, and impact measurement, with a track record supporting blended finance vehicles and gender-lens initiatives across Africa.",
-    "Kofoworola is passionate about leveraging finance as a tool for sustainable growth, particularly at the intersection of gender equality, infrastructure, climate resilience, and economic inclusion.",
-    "Her experience includes roles at investment funds with over $700 million in AUM and working on projects in partnership with the Ford Foundation and Mastercard Foundation."
+    "I am an impact-driven analyst with experience across private equity, venture capital, and capital markets.",
+    "skilled in fund structuring, investment analysis, and impact measurement, with a track record supporting blended finance vehicles and gender-lens initiatives across Africa.",
+    "my experience includes roles at investment funds with over $700 million in AUM and working on projects in partnership with the Ford Foundation and Mastercard Foundation.",
+    "I am passionate about leveraging finance as a tool for sustainable growth, particularly at the intersection of gender equality, infrastructure, climate resilience, and economic inclusion.",
   ],
 
   education: [
@@ -67,6 +67,33 @@ export const profile: Profile = {
     "Comfortable operating across fund operations, compliance, reporting, program delivery, and stakeholder engagement",
     "Strong exposure to impact investing, ESG, and gender-lens frameworks, supporting capital deployment that is both commercially sound and outcome-driven"
   ],
+
+  expertise: [
+  {
+    title: "Investment Analysis",
+    description:
+      "Rigorous due diligence, financial modeling, and market research across early-stage and growth investments.",
+    icon: "analytics",
+  },
+  {
+    title: "Fund Operations",
+    description:
+      "Support across fund structuring, governance, reporting, and compliance for blended finance vehicles.",
+    icon: "analytics",
+  },
+  {
+    title: "ESG & Impact",
+    description:
+      "Design and implementation of ESG frameworks, impact metrics, and gender-lens investment strategies.",
+    icon: "Diversity",
+  },
+  {
+    title: "Portfolio Support",
+    description:
+      "Hands-on portfolio monitoring, M&E systems, and technical assistance for fund managers and founders.",
+    icon: "public",
+  },
+],
 
   contact: {
     phone: "+234 808 365 9509",

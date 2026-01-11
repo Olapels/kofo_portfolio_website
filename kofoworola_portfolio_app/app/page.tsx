@@ -1,5 +1,4 @@
 import Hero from "@/components/sections/hero";
-import About from "@/components/sections/about";
 import Education from "@/components/sections/education";
 import Skills from "@/components/sections/skills";
 import Experience from "@/components/sections/experience";
@@ -10,9 +9,8 @@ export default function Page() {
   return (
     <main className="flex flex-col">
       <Hero />
-      <About />
-      <Education />
       <Skills />
+      <Education />
       <Experience />
       <Advantage />
       <Contact />
