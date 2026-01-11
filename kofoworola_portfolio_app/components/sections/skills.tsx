@@ -8,12 +8,8 @@ export default function Skills() {
         {/* Header */}
         <div className="max-w-2xl mb-16">
           <h2 className="text-4xl md:text-5xl font-black mb-4">
-            Expertise & Services
+            Skillset & Expertise
           </h2>
-          <p className="text-lg text-gray-600">
-            Practical investment and impact expertise applied across funds,
-            portfolios, and institutions.
-          </p>
         </div>
 
         {/* Cards */}
@@ -27,12 +23,12 @@ export default function Skills() {
 
               <div className="relative z-10 flex flex-col gap-6">
                 <span className="material-symbols-outlined text-4xl text-yellow-500">
-                  {item.icon}
+                  {item.title}
                 </span>
 
-                <h3 className="text-xl font-bold">
+                {/* <h3 className="text-xl font-bold">
                   {item.title}
-                </h3>
+                </h3> */}
 
                 <p className="text-sm text-gray-600 leading-relaxed">
                   {item.description}
