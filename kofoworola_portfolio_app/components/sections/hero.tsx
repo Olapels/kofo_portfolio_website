@@ -50,14 +50,14 @@ export default function Hero() {
 
           <div className="grid grid-cols-2 gap-8 mt-6">
             <div className="border-l-2 border-yellow-400 pl-4">
-              <p className="text-3xl font-bold"> 3 years </p>
+              <p className="text-3xl font-bold"> 3 years +</p>
               <p className="text-xs uppercase font-bold text-gray-500 tracking-wider">
                 Professional Experience
               </p>
             </div>
 
             <div className="border-l-2 border-yellow-400 pl-4">
-              <p className="text-3xl font-bold">$100Million</p>
+              <p className="text-3xl font-bold">$100Million +</p>
               <p className="text-xs uppercase font-bold text-gray-500 tracking-wider">
                 cumulative deal value supported
               </p>
