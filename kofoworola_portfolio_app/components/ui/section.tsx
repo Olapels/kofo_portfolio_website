@@ -1,14 +1,17 @@
 type SectionProps = {
   title: string;
   children: React.ReactNode;
+  id?: string;
 };
 
-export default function Section({ title, children }: SectionProps) {
+export default function Section({ title, children, id }: SectionProps) {
   return (
-    <section className="py-20 max-w-4xl mx-auto px-6">
-      <h2 className="text-2xl font-semibold mb-6">
-        {title}
-      </h2>
+    <section id={id} className="py-24 max-w-5xl mx-auto px-6">
+      <header className="mb-12">
+        <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-white">
+          {title}
+        </h2>
+      </header>
       {children}
     </section>
   );
