@@ -72,7 +72,7 @@ export const profile: Profile = {
     {
       role: "Investment Analyst",
       company: "Future Africa Fund",
-      logo: "/logos/future-africa.svg",
+      logo: "/logos/future-africa.png",
       period: "2021 – 2022",
       bullets: [
         "Conducted due diligence on early-stage companies across African markets.",
@@ -82,7 +82,7 @@ export const profile: Profile = {
     {
       role: "Compliance Analyst",
       company: "Nigerian Exchange (NGX)",
-      logo: "/logos/ngx.svg",
+      logo: "/logos/ngx.png",
       period: "2020 – 2021",
       bullets: [
         "Reviewed capital market transactions and listings for compliance.",
