@@ -12,7 +12,7 @@ export default function About() {
       <div className="w-full">
         <div className="glass p-6 sm:p-12 md:p-20 rounded-3xl space-y-8 sm:space-y-10 md:space-y-12">
           {profile.introduction.map((paragraph, index) => (
-            <p key={index} className="text-lg sm:text-2xl md:text-4xl leading-relaxed text-slate-200/95">
+            <p key={index} className="text-lg sm:text-2xl md:text-2xl leading-relaxed text-slate-200/95">
               {paragraph}
             </p>
           ))}
