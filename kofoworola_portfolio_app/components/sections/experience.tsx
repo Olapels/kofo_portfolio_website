@@ -73,14 +73,14 @@ export default function Experience() {
         </h2>
       </div>
       <div className="w-full max-w-none">
-        <div className="glass p-16 rounded-3xl space-y-8">
+        <div className="glass p-6 sm:p-10 md:p-16 rounded-3xl space-y-6 sm:space-y-7 md:space-y-8">
           {[0, 1, 2].map((slotIndex) => {
             const bulletIndex = currentIndices[slotIndex] % allBullets.length;
             const bullet = allBullets[bulletIndex];
 
             return (
-              <div key={slotIndex} className="text-2xl text-slate-200/90 leading-relaxed min-h-[110px] flex items-start">
-                <span className="text-amber-300 mr-4 text-2xl flex-shrink-0">{'>'}</span>
+              <div key={slotIndex} className="text-sm sm:text-lg md:text-2xl text-slate-200/90 leading-relaxed min-h-[80px] sm:min-h-[100px] md:min-h-[110px] flex items-start">
+                <span className="text-amber-300 mr-3 sm:mr-4 text-sm sm:text-lg md:text-2xl flex-shrink-0">{'>'}</span>
                 <span className="flex-1">
                   {displayedTexts[slotIndex]}
                   {isTyping[slotIndex] && displayedTexts[slotIndex].length < (bullet?.length || 0) && (
