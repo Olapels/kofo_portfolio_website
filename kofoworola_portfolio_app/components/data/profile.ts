@@ -11,14 +11,14 @@ export const profile: Profile = {
 
   education: [
     {
-      institution: "University of Ibadan",
-      year: "2024",
-      qualification: "Bachelor of Laws (LL.B), Second Class Upper Division",
-    },
-    {
       institution: "Nigerian Law School",
       year: "2025",
       qualification: "Qualifying Certificate to the Nigerian Bar (Awaiting Result)",
+    },
+    {
+      institution: "University of Ibadan",
+      year: "2024",
+      qualification: "Bachelor of Laws (LL.B)",
     },
     {
       institution: "Lagos Business School",
@@ -47,7 +47,7 @@ export const profile: Profile = {
       role: "Fund and Transactions Analyst",
       company: "Solt Advisory",
       logo: "/logos/solt.png",
-      period: "2024 – Present",
+      period: "2026 – Present",
       bullets: [
         "Conducted market and feasibility assessments for a gender bond to shape strategies to channel private capital into women-led enterprises.",
         "Supported the implementation of two cohorts of the Moremi Accelerator Program, providing hands-on support to 40+ women-led funds across 15 African countries, including fund structuring, LP engagement, and capital mobilisation, generating a $383M funding pipeline with $59.37M hard commitments and $106.2M soft commitments.",
