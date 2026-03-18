@@ -124,15 +124,6 @@ export default function Header() {
                 >
                   <span className="material-symbols-outlined text-lg">article</span>
                 </a>
-                <a
-                  href={profile.contact.substack ?? "#"}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="p-2 rounded-lg text-white hover:bg-slate-800 transition"
-                  aria-label="Substack"
-                >
-                  <span className="material-symbols-outlined text-lg">rss_feed</span>
-                </a>
               </div>
             </div>
           </div>

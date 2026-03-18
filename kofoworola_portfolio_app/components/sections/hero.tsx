@@ -70,10 +70,10 @@ export default function Hero() {
         <div className="relative lg:w-7/12 w-full max-w-lg lg:max-w-none">
           <div className="relative rounded-3xl overflow-hidden shadow-[0_60px_90px_-40px_rgba(0,0,0,0.5)]">
             <Image
-              src="/images/kofo.JPG"
+              src="/images/Kofo.JPG"
               alt={profile.name}
-              width={15000}
-              height={10000}
+              width={20000}
+              height={8000}
               className="w-full h-auto object-cover"
               priority
             />

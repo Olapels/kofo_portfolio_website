@@ -10,10 +10,7 @@ export default function Education() {
             key={edu.institution}
             className="glass p-8 rounded-3xl border border-white/10"
           >
-            <p className="text-base uppercase tracking-wide text-amber-200/90">
-              {edu.year}
-            </p>
-            <h3 className="mt-3 text-xl font-semibold text-white">
+            <h3 className="text-xl font-semibold text-white">
               {edu.institution}
             </h3>
             <p className="mt-3 text-base text-slate-200/80 leading-relaxed">

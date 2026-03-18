@@ -5,8 +5,9 @@ export const profile: Profile = {
   headline: "Impact Finance Analyst",
 
   introduction: [
-    "I am an impact finance analyst working at the intersection of law, capital, and inclusive finance in Africa. My work focuses on investment analysis, fund structuring, blended finance, catalytic capital, and institutional systems that unlock capital at scale. I support funds, investors, and ecosystem institutions to design and operationalise capital structures that work, commercially and impactfully.",
-    "My experience spans private equity, venture capital, and capital markets, with a strong focus on gender-lens investing, climate-aligned capital, and sustainable finance across Africa.",
+    "I am a professional working at the intersection of law, capital, and inclusive finance in developing economies. My experience spans private equity, venture capital, and capital markets, with a strong focus on gender-lens investing, climate-aligned capital, and sustainable finance",
+    "My work focuses on fund structuring, blended finance, capital mobilisation, and investment analysis, with specific experience supporting catalytic and blended investment vehicles across Africa. I have worked closely with fund managers, investors, and ecosystem institutions to design capital structures, provide technical assistance, and strengthen investment readiness",
+    "I am passionate about building institutional systems that unlock capital at scale and using finance as a tool to drive inclusive growth, particularly in climate resilience, gender equality, infrastructure, and economic inclusion"
   ],
 
   education: [
@@ -67,6 +68,16 @@ export const profile: Profile = {
       period: "2022 – 2024",
       bullets: [
         "Advised on the structuring of a $1B Wholesale Impact Investment Fund, creating a results-based impact framework embedding gender, climate, and ESG metrics that positioned the Fund to mobilise blended finance and attract catalytic investors.",
+      ],
+    },
+    {
+      role: "Investment Analyst",
+      company: "Kuramo Foundation for Sustainable Development",
+      logo: "/logos/kuramo-foundation.png",
+      period: "2023 – Present",
+      bullets: [
+        "Leading sustainable development initiatives and impact investment programs.",
+        "Developing frameworks for ESG integration and sustainable finance solutions.",
       ],
     },
     {
