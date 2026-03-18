@@ -8,9 +8,9 @@ export default function Footer() {
           <p className="text-sm font-semibold text-gray-900 dark:text-white">
             {profile.name}
           </p>
-          <p className="text-xs text-gray-600 dark:text-slate-300">
+          {/* <p className="text-xs text-gray-600 dark:text-slate-300">
             Built with Next.js + Tailwind · {new Date().getFullYear()}
-          </p>
+          </p> */}
         </div>
 
         <div className="flex items-center gap-4 text-xs text-gray-600 dark:text-slate-300">
