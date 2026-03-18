@@ -11,10 +11,9 @@ export default function Skills() {
           <h2 className="text-5xl md:text-6xl font-extrabold tracking-tight text-white">
             Areas of expertise
           </h2>
-          <p className="mt-6 text-xl text-slate-200/80">
-            Deep experience across impact investing, fund operations, and ESG
-            strategy.
-          </p>
+          {/* <p className="mt-6 text-xl text-slate-200/80">
+            Deep experience across sustainable finance, fund operations, and investment management. 
+          </p> */}
         </div>
 
         <div className="flex flex-wrap gap-10 justify-center">
