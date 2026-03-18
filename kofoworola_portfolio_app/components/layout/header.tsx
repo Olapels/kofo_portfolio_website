@@ -92,25 +92,25 @@ export default function Header() {
       </div>
 
       {open ? (
-        <div className="md:hidden bg-white/90 dark:bg-slate-950/90 border-t border-slate-200/40 dark:border-slate-800/40 backdrop-blur">
+        <div className="md:hidden bg-slate-900/95 border-t border-slate-700/50 backdrop-blur">
           <div className="max-w-7xl mx-auto px-6 py-4">
             <div className="flex flex-col gap-3">
               {navItems.map((item) => (
                 <a
                   key={item.href}
                   href={item.href}
-                  className="text-base font-medium text-gray-700 dark:text-slate-200 hover:text-gray-900 dark:hover:text-white"
+                  className="text-base font-medium text-white hover:text-amber-300 transition-colors"
                   onClick={() => setOpen(false)}
                 >
                   {item.label}
                 </a>
               ))}
-              <div className="flex items-center gap-4 pt-4 border-t border-slate-200/40 dark:border-slate-800/40">
+              <div className="flex items-center gap-4 pt-4 border-t border-slate-700/50">
                 <a
                   href={profile.contact.linkedin?.url ?? "#"}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="p-2 rounded-lg text-gray-700 dark:text-slate-200 hover:bg-gray-100 dark:hover:bg-slate-800 transition"
+                  className="p-2 rounded-lg text-white hover:bg-slate-800 transition"
                   aria-label="LinkedIn"
                 >
                   <span className="material-symbols-outlined text-lg">work</span>
@@ -119,7 +119,7 @@ export default function Header() {
                   href={profile.contact.medium ?? "#"}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="p-2 rounded-lg text-gray-700 dark:text-slate-200 hover:bg-gray-100 dark:hover:bg-slate-800 transition"
+                  className="p-2 rounded-lg text-white hover:bg-slate-800 transition"
                   aria-label="Medium"
                 >
                   <span className="material-symbols-outlined text-lg">article</span>
@@ -128,7 +128,7 @@ export default function Header() {
                   href={profile.contact.substack ?? "#"}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="p-2 rounded-lg text-gray-700 dark:text-slate-200 hover:bg-gray-100 dark:hover:bg-slate-800 transition"
+                  className="p-2 rounded-lg text-white hover:bg-slate-800 transition"
                   aria-label="Substack"
                 >
                   <span className="material-symbols-outlined text-lg">rss_feed</span>
